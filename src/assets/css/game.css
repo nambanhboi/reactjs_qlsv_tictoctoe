@@ -1,0 +1,52 @@
+.container {
+    width: auto;
+    margin: auto;
+     text-align: center;
+}
+
+.rowboard {
+    display: flex;
+}
+
+.rowboard div{
+    width: 36px;
+    height: 34px;
+    background-color: red;
+    border: 1px solid;
+    text-align: center;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.chessboard {
+    margin-bottom: 20px;
+    margin-left: 700px;
+}
+
+.luot_choi{
+    font-size: 14px;
+}
+
+
+.fill_infos {
+    width: 300px;
+    height: 150px;
+    margin: auto;
+}
+
+.fill_info{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.fill_info label{
+    float: left;
+}
+
+.fill_info input{
+    max-width: 100px;
+}
+
+
